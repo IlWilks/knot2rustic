@@ -27,7 +27,7 @@ export default () => {
         <div style={{display: "flex", flexDirection: "column", alignItems: "center", height: "1080px", width: "auto"}}>
           <img src={logo}/>
           <Caret src={caret}/>
-          <h1 style={{color: 'white',}}>Scroll down to learn more</h1>
+          <h1 style={{color: 'white', fontFamily: "Arvo"}}>Scroll down to learn more</h1>
         </div>
       </Parallax>
     </TitleWrapper>
