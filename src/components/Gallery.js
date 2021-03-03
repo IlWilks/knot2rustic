@@ -18,7 +18,6 @@ import slide15 from "../icons/slideshow2/Knot 2 Rustic slide show 2-15.png"
 import slide16 from "../icons/slideshow2/Knot 2 Rustic slide show 2-16.png"
 import slide17 from "../icons/slideshow2/Knot 2 Rustic slide show 2-17.png"
 import slide18 from "../icons/slideshow2/Knot 2 Rustic slide show 2-18.png"
-import slide19 from "../icons/slideshow2/Knot 2 Rustic slide show 2-19.png"
 
 
 const images = [
@@ -94,15 +93,11 @@ const images = [
     original: slide18,
     thumbnail: slide18,
   },
-  {
-    original: slide19,
-    thumbnail: slide19,
-  },
   
 ];
 
 export default () => {
   return (
-    <ImageGallery items={images} />
+      <ImageGallery items={images} />
   )
 }

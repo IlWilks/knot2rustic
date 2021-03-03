@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import Gallery from './Gallery'
 import Titlepage from './Titlepage'
@@ -5,19 +6,33 @@ import Titlepage from './Titlepage'
 const HomeWrapper = styled.div`
   display: flex;
 `
+
+const Button = styled.button`
+/* Adapt the colors based on primary prop */
+background: "white";
+color: "palevioletred";
+
+font-size: 1em;
+margin: 1em;
+padding: 0.25em 1em;
+border: 2px solid #505050;
+border-radius: 3px;
+`;
+
 export default () => {
   return(
     <>
     <Titlepage/>
-    <div style={{paddingTop: "50px",}}>
+    <div style={{paddingTop: "50px", paddingBottom: "50px"}}>
     <p style={{textAlign: "center", fontSize: "30px", fontFamily: "'Playfair Display', serif"}}>
-      For our <span style={{fontWeight: "bold", fontFamily: "Arvo", fontSize: "50px"}}>individual</span> clients, Knot 2 Rustic Woodworks creates <span style={{fontWeight: "bold", fontFamily: "Arvo", fontSize: "50px"}}>unique</span> pieces and installations with great meaning, purpose, and <span style={{fontWeight: "bold", fontFamily: "Arvo", fontSize: "50px"}}>beauty</span> that stand the test of time.  
-      Follow along below to discover how Knot 2 Rustic Woodworks creates the <span style={{fontWeight: "bold", fontFamily: "Arvo", fontSize: "50px"}}>perfect</span> piece for any setting.
+      For our individual clients, Knot 2 Rustic Woodworks creates unique pieces and installations with great meaning, purpose, and beauty that stand the test of time.  
+      Discover how Knot 2 Rustic Woodworks creates the perfect piece for any setting.
     </p>
     <Gallery/>
-    <p style={{textAlign: "center", fontSize: "30px", fontFamily: "'Playfair Display', serif"}}>
-      Like any great woodworking design, we consider each of our clients to be unique. Mark and Tony prefer to communicate face to face or over the phone to ensure that each project is held to their high standards. If you are ready to find your perfect piece, click here to contact them. 
-    </p>
+    </div>
+    <div style={{display: 'flex', justifyContent: 'flex-end'}}>
+      <a href={'/contact'} style={{marginLeft: "75%"}}><Button>Contact Mark and Tony</Button></a>
+      <a href={'/more'}><Button>View more works</Button></a>
     </div>
     </>
   )
