@@ -2,7 +2,6 @@ import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
 import slide1 from "../icons/slideshow1/2016 K2R slide show-1.png"
 import slide2 from "../icons/slideshow1/2016 K2R slide show-2.png"
-import slide3 from "../icons/slideshow1/2016 K2R slide show-3.png"
 import slide4 from "../icons/slideshow1/2016 K2R slide show-4.png"
 import slide5 from "../icons/slideshow1/2016 K2R slide show-5.png"
 import slide6 from "../icons/slideshow1/2016 K2R slide show-6.png"
@@ -39,9 +38,6 @@ const images = [
   },{
     original: slide2,
     thumbnail: slide2,
-  },{
-    original: slide3,
-    thumbnail: slide3,
   },{
     original: slide4,
     thumbnail: slide4,
