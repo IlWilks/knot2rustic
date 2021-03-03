@@ -3,10 +3,6 @@ import styled from 'styled-components'
 import Gallery from './Gallery'
 import Titlepage from './Titlepage'
 
-const HomeWrapper = styled.div`
-  display: flex;
-`
-
 const Button = styled.button`
 /* Adapt the colors based on primary prop */
 background: "white";
@@ -23,7 +19,7 @@ export default () => {
   return(
     <>
     <Titlepage/>
-    <div style={{paddingTop: "50px", paddingBottom: "50px"}}>
+    <div style={{paddingTop: "2%", paddingBottom: "2%"}}>
     <p style={{textAlign: "center", fontSize: "30px", fontFamily: "'Playfair Display', serif"}}>
       For our individual clients, Knot 2 Rustic Woodworks creates unique pieces and installations with great meaning, purpose, and beauty that stand the test of time.  
       Discover how Knot 2 Rustic Woodworks creates the perfect piece for any setting.

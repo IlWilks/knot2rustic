@@ -10,33 +10,37 @@ import Navbar from './Navbar'
 
 const TitleWrapper = styled.div`
   display: flex;
+  min-height: 100%;
+  max-height: 100%;
   width: auto;
   height: auto;
-  align-items: center;
   justify-content: center;
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${testbackground});
   background-repeat: no-repeat;
-  background-size: contain`
+  background-size: cover;
+  background-position: center;`
 
   const Caret = styled.img`
-  height: 100px;
+  height: 4em;
   width: auto;
   color: white;
-  padding-top: 20px;
+  padding-top: 5%;
   `
 export default () => {
   const history = useHistory();
 
   return (
+    <div style={{height: "1600px"}}>
     <TitleWrapper>
       <Navbar/>
-      <Parallax y={[-10, 50]} tagOuter="figure">
-        <div style={{display: "flex", flexDirection: "column", alignItems: "center", height: "2127px", width: "auto"}}>
-          <img src={logo} style={{height: "6%", width:"auto"}}/>
+      <Parallax y={["-40px", "500px"]} tagOuter="figure">
+        <div style={{display: "flex", flexDirection: "column", alignItems: "center", height: "auto", width: "auto"}}>
+          <img src={logo} style={{height: "10em", width:"auto"}}/>
           <Caret src={caret}/>
           <h1 style={{color: 'white', fontFamily: "Arvo"}}>Scroll down to learn more</h1>
         </div>
       </Parallax>
     </TitleWrapper>
+    </div>
   )
 }
