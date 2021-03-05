@@ -18,12 +18,12 @@ import slide15 from "../icons/slideshow2/Knot 2 Rustic slide show 2-15.png"
 import slide16 from "../icons/slideshow2/Knot 2 Rustic slide show 2-16.png"
 import slide17 from "../icons/slideshow2/Knot 2 Rustic slide show 2-17.png"
 import slide18 from "../icons/slideshow2/Knot 2 Rustic slide show 2-18.png"
-
+import titleslide from "../icons/slideshow2/edited first slide.png"
 
 const images = [
   {
-    original: slide1,
-    thumbnail: slide1,
+    original: titleslide,
+    thumbnail: titleslide,
   },
   {
     original: slide2,

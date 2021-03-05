@@ -121,7 +121,7 @@ const images = [
 export default () => {
   return (
     <>
-      <Navbar style={{color: 'black'}}/>
+      <Navbar/>
       <div style={{paddingTop: "100px"}}>
         <ImageGallery items={images}/>
       </div>

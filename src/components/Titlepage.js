@@ -32,7 +32,6 @@ export default () => {
   return (
     <div style={{height: "1600px"}}>
     <TitleWrapper>
-      <Navbar/>
       <Parallax y={["-40px", "500px"]} tagOuter="figure">
         <div style={{display: "flex", flexDirection: "column", alignItems: "center", height: "auto", width: "auto"}}>
           <img src={logo} style={{height: "10em", width:"auto"}}/>
