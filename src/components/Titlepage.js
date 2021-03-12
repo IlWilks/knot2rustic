@@ -1,12 +1,9 @@
 import styled from 'styled-components'
-import knotbackground from '../icons/backgroundknot.jpg'
 import testbackground from '../icons/trialbackground.jpg'
-import logo from "../icons/longlogo.png"
+import logo from "../icons/editedlogo.png"
 import caret from "../icons/caret.png"
 import { Parallax } from 'react-scroll-parallax'
-import { Link } from 'react-router-dom'
 import { useHistory } from 'react-router-dom';
-import Navbar from './Navbar'
 
 const TitleWrapper = styled.div`
   display: flex;
