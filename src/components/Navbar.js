@@ -8,7 +8,7 @@ export default (props) => {
 
   console.log(window.location.href)
   return (
-  <div style={{color: "black",  display: "flex", justifyContent: "space-between", alignItems: "flex-start", width: "20%", position: "absolute", top: "0px", right: "0px", fontSize: "20px", fontFamily: "'Playfair Display', serif",}}>
+  <div style={{color: "black",  display: "flex", justifyContent: "space-between", alignItems: "flex-start", width: "20%", position: "absolute", top: "0px", fontSize: "20px", fontFamily: "'Playfair Display', serif",}}>
     <p style={{cursor:'pointer'}} onClick={handleHomeClick}>Home</p>
     <p style={{cursor:'pointer'}} onClick={handleContactClick}>Contact</p>
     <p style={{cursor:'pointer'}} onClick={handleMoreClick}>More Works</p>
