@@ -7,7 +7,7 @@ import { useHistory } from 'react-router-dom';
 
 const TitleWrapper = styled.div`
   display: flex;
-  min-height: 100%;
+  min-height: 1600px;
   max-height: 100%;
   width: auto;
   height: auto;
@@ -18,22 +18,27 @@ const TitleWrapper = styled.div`
   background-position: center;`
 
   const Caret = styled.img`
-  height: 4em;
-  width: auto;
+  height: auto;
+  max-width: 30%;
   color: white;
   padding-top: 5%;
+  `
+  const LearnMore = styled.h1`
+  color: white;
+  font-family: "Arvo";
+  font-size: clamp(20px, 3vw, 40px);
   `
 export default () => {
   const history = useHistory();
 
   return (
-    <div style={{height: "1600px"}}>
+    <div style={{height: "100%"}}>
     <TitleWrapper>
-      <Parallax y={["-40px", "500px"]} tagOuter="figure">
-        <div style={{display: "flex", flexDirection: "column", alignItems: "center", height: "auto", width: "auto"}}>
-          <img src={logo} style={{height: "10em", width:"auto"}}/>
+      <Parallax y={["-40px", "700px"]} tagOuter="figure">
+        <div style={{display: "flex", flexDirection: "column", alignItems: "center", height: "auto", width: "auto", minWidth: "320px"}}>
+          <img src={logo} style={{maxWidth: "60%", height: "auto"}}/>
           <Caret src={caret}/>
-          <h1 style={{color: 'white', fontFamily: "Arvo"}}>Scroll down to learn more</h1>
+          <LearnMore>Scroll down to learn more</LearnMore>
         </div>
       </Parallax>
     </TitleWrapper>
