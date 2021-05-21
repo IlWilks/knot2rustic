@@ -56,8 +56,8 @@ export default () => {
     <Gallery/>
     </div>
     <div style={{display: 'flex', justifyContent: 'flex-end'}}>
-      <a href={'/contact'} style={{marginLeft: "75%"}}><Button>Contact Mark and Tony and read reviews</Button></a>
-      <a href={'/more'}><Button>View more works</Button></a>
+      <a href={'/contact'} style={{marginLeft: "75%"}}><Button>Contact</Button></a>
+      <a href={'/more'}><Button>More Works</Button></a>
     </div>
     </>
   )

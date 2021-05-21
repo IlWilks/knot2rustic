@@ -27,6 +27,10 @@ export default () => {
         <p style={{fontSize: "20px", fontFamily: "'Playfair Display', serif", fontStyle: "italic", margin: "0"}}>"I have used Knot 2 Rustic for many of my custom projects over the years.  They were very easy to work with from the design stage up until the day I received the finished piece(s). Their design team is incredible! I would tell them what I envisioned in my head, and they would draw it up so that I could actually see how it was going to look before they made it. The quality and workmanship of everything is top notch.  I have had their pieces in commercial settings for years with no signs of needing repair, and I continue to get asked the question "where did you get that"?  I would highly recommend Knot 2 Rustic to anyone who is looking for something unique, beautiful, durable and a piece that you will enjoy for many years!"</p>
         <p style={{fontFamily: "'Playfair Display', serif"}}>-Kevin McCarty</p>
       </div>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "90%"}}>
+        <p style={{fontSize: "20px", fontFamily: "'Playfair Display', serif", fontStyle: "italic", margin: "0"}}>“It is such a pleasure working with Mark and Tony. We wanted a large live edge slab table. These guys start by looking for a tree, not what’s available at the local supply store! Mark sketched out designs until we were happy, then worked with us to make it just the right size and to hide the technology in the craftsmanship of the table. Truly, a one of a kind beautiful piece. Thank You Mark and Tony!”</p>
+        <p style={{fontFamily: "'Playfair Display', serif"}}>-David Horst, O'Reilly Hospitality Management LLC</p>      
+      </div>
     </div>
     <div style={{ display: "flex", justifyContent: "space-around", paddingTop: "2em"}}>
         <Number>Mark Tuttle: 417-522-8323</Number>
